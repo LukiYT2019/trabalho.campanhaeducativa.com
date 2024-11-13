@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Azul claro */
+    color: #333;
+}
+
+header {
+    background: #a4d4e1; /* Azul suave */
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid #88c3d7; /* Azul mais escuro */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #ffffff; /* Fundo branco para o conteúdo */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em; /* Título maior */
+    margin: 0;
+}
+
+h2 {
+    color: #4a90e2; /* Azul suave para os subtítulos */
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #a4d4e1; /* Azul suave */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0;
+}
+
+ul li {
+    background: #e7f3f9; /* Fundo suave para os itens da lista */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+#banner {
+    display: flex; /* Usa Flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente (se houver altura) */
+    margin: 20px 0; /* Espaçamento acima e abaixo do banner */
+}
+
+.banner-img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do contêiner */
+    max-width: 800px; /* Limita a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
